@@ -1,0 +1,15 @@
+{
+  "name": "systemlevel-greenfield",
+  "owner": { "name": "System Level" },
+  "metadata": {
+    "description": "System Level fork of greenfield with the skills-directory load fix (skills packaged as <name>/SKILL.md).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "greenfield",
+      "source": { "source": "github", "repo": "systemlevel/greenfield" },
+      "description": "Reverse engineer clean behavioral specs from any codebase. System Level fork: skills are packaged as <name>/SKILL.md directories so the plugin loads on current Claude Code."
+    }
+  ]
+}
